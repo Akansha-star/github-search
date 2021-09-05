@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.github_search_input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 1rem 0.5rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.github_search_input:focus {
+  border-bottom: 1px solid #111;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.repo_list {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.color-text-secondary {
+  color: #57606a;
+}
+
+.mr-3 {
+  margin-right: 3rem;
+}
+.avatar-user {
+  border-radius: 50% !important;
+}
+
+.vcard-details {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.vcard-fullname {
+  font-size: 26px;
+  line-height: 1.25;
+}
+.vcard-username {
+  color: #57606a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 10px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .menu {
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .menu-button {
+    height: 40px;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    top: -4px;
+    left: 10px;
+    z-index: 20;
+    transform: rotate(90deg);
   }
 }
