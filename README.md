@@ -2,8 +2,9 @@
 
 The application allows to search Github repositiories. List github repositories whicjh matches the search string. Responsive web page.
 
+## Application Deployed on Vercel
 
-
+https://github-search-akansha-star.vercel.app/
 
 ## Getting Started with Create React App
 
