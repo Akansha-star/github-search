@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+## Basic Github Search API Integration
+
+The application allows to search Github repositiories. List github repositories whicjh matches the search string. Responsive web page.
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
